@@ -14,7 +14,7 @@ contract InfinityNFTDeployScript is BaseScript {
         deployerKey = vm.envUint("DEPLOYER_KEY");
         vm.addr(deployerKey);
         vm.startBroadcast(deployerKey);
-        InfinityNFT infinity = new InfinityNFT("InfinityTest", "INF");
+        InfinityNFT infinity = new InfinityNFT("InfinityAI", "INF");
         logAddr(address(infinity), "Infinity NFT");
         vm.stopBroadcast();
     }
