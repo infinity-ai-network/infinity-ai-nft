@@ -9,6 +9,11 @@ via_ir = true
 
 [rpc_endpoints]
 bit_layer_testnet = "${BIT_LAYER_TESTNET_RPC_URL}"
+bit_layer = "${BIT_LAYER_RPC_URL}"
+merlin = "${MERLIN_RPC_URL}"
+bsquared = "${BSQUARED_RPC_URL}"
+sepolia = "${SPEOLIA_RPC_URL}"
+ai_layer = "${AILAYER_RPC_URL}"
 
 # [etherscan]
 # bit_layer_testnet = { key = "${ETHERSCAN_API_KEY}", chain = "200810", url = "https://testnet-scan.bitlayer.org/api" }
